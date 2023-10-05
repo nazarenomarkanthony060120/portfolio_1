@@ -59,17 +59,16 @@ function Minimart() {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-wrap gap-3">
-                            <span className='tracking-widest'>GitHub Repositories: </span>
-                            <a href="https://github.com/nazarenomarkanthony060120/Minimart_Inventory_System" target="_blank" rel="noopener noreferrer">
-                                <span className='hover:text-blue-400 hover:underline'>https://github.com/nazarenomarkanthony060120/Minimart_Inventory_System</span>
+                        <div className="flex flex-col gap-2">
+                            <a className='relative w-fit' href="https://github.com/nazarenomarkanthony060120/Minimart_Inventory_System" target="_blank" rel="noopener noreferrer">
+                                <div className="absolute w-full h-full blur bg-gradient-to-bl from-green-500 via-yellow-500 to-red-500"></div>
+                                <button className='relative rounded-lg bg-cyan-300 hover:bg-cyan-500 hover:text-white text-black text-sm px-4 py-2'>Visit the Github</button>
                             </a>
-                            
+                            <a className='relative w-fit' href="https://nazarenomarkanthony060120.github.io/minimart-system/" target="_blank" rel="noopener noreferrer">
+                                <div className="absolute w-full h-full blur bg-gradient-to-bl from-green-500 via-yellow-500 to-red-500"></div>
+                                <button className='relative rounded-lg bg-green-500 hover:bg-green-500 hover:text-white text-black text-sm px-3 py-2'>Visit the website</button>
+                            </a>
                         </div>
-                        <a className='relative w-fit' href="https://nazarenomarkanthony060120.github.io/minimart-system/" target="_blank" rel="noopener noreferrer">
-                            <div className="absolute w-full h-full blur bg-gradient-to-bl from-green-500 via-yellow-500 to-red-500"></div>
-                            <button className='relative rounded-lg bg-cyan-300 hover:bg-cyan-500 hover:text-white text-black text-sm px-3 py-2'>Visit the website</button>
-                        </a>
                         <span className='italic'>Note: I removed the backend of this website *</span>
                         <div className="flex flex-col gap-10">
                             <div className="flex flex-col w-full gap-3">

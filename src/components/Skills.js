@@ -3,6 +3,20 @@ import ProgressBar from "@ramonak/react-progress-bar";
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import VisibilitySensor from 'react-on-visible';
+import { motion } from 'framer-motion'
+import ReactJS from '../images/ReactJS.png'
+import HTML from '../images/HTML.png'
+import JS from '../images/JS.png'
+import CSS from '../images/CSS.png'
+import BOOTSTRAP5 from '../images/BOOTSTRAP_5.png'
+import TAILWINDCSS from '../images/Tailwind_CSS.png'
+import NodeJS from '../images/NodeJS.png'
+import ExpressJS from '../images/ExpressJS.png'
+import MySQL from '../images/Mysql.png'
+import SQL from '../images/SQL.png'
+import FirebaseFirestore from '../images/Firestore.png'
+import Git from '../images/GIT.png'
+import GitHub from '../images/GITHUB.png'
 
 function Skills() {
 
@@ -25,13 +39,128 @@ function Skills() {
 
     return (
         <>
-            <div className=" h-screen  max-xl:h-fit max-xl:py-10" id='skills'>
-                <div className="flex flex-col mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 text-white h-[83vh] max-xl:h-fit max-sm:px-7 max-md:grid-cols-1 gap-14">
-                    <div className="flex flex-col gap-1">
-                        <div className="text-center py-5">
-                            <span className='text-2xl font-bold'>SKILLS & EXPERIENCES</span>
+            <div className=" h-fit py-5 max-xl:h-fit max-xl:py-10" id='skills'>
+                <div className="flex flex-col mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 text-white h-fit max-xl:h-fit max-sm:px-7 max-md:grid-cols-1 gap-14">
+                    <div className="flex flex-col gap-8">
+                        <div className="text-center ">
+                            <span className='text-2xl font-bold'>SKILLS</span>
                         </div>
-                        <div className="flex justify-evenly max-sm:flex-wrap gap-20 max-sm:gap-5">
+                        <div className="flex flex-col gap-5">
+                            <span className='text-lg text-center'>Front End Stack</span>
+                            <div className="flex justify-between max-xl:justify-center max-sm:justify-center max-sm:gap5 flex-wrap  gap-3">
+                                <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
+                                    <div className="absolute w-full h-full blur-lg bg-gradient-to-t from-green-500 via-yellow-500 to-red-500"></div>
+                                    <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
+                                        <span className="text-lg">React JS</span>
+                                        <img src={ReactJS} alt="React JS" />
+                                    </div>
+                                </div>
+                                <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
+                                    <div className="absolute w-full h-full blur-lg bg-gradient-to-t from-green-500 via-yellow-500 to-red-500"></div>
+                                    <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
+                                        <span className="text-lg">HTML</span>
+                                        <img src={HTML} alt="React JS" />
+                                    </div>
+                                </div>
+                                <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
+                                    <div className="absolute w-full h-full blur-lg bg-gradient-to-t from-green-500 via-yellow-500 to-red-500"></div>
+                                    <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
+                                        <span className="text-lg">JavaScript</span>
+                                        <img src={JS} alt="React JS" />
+                                    </div>
+                                </div>
+                                <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
+                                    <div className="absolute w-full h-full blur-lg bg-gradient-to-t from-green-500 via-yellow-500 to-red-500"></div>
+                                    <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
+                                        <span className="text-lg">CSS</span>
+                                        <img src={CSS} alt="React JS" />
+                                    </div>
+                                </div>
+                                <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
+                                    <div className="absolute w-full h-full blur-lg bg-gradient-to-t from-green-500 via-yellow-500 to-red-500"></div>
+                                    <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
+                                        <span className="text-lg">Bootstrap 5</span>
+                                        <img src={BOOTSTRAP5} alt="React JS" />
+                                    </div>
+                                </div>
+                                <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
+                                    <div className="absolute w-full h-full blur-lg bg-gradient-to-t from-green-500 via-yellow-500 to-red-500"></div>
+                                    <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
+                                        <span className="text-lg">TailwindCSS</span>
+                                        <img src={TAILWINDCSS} alt="React JS" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex items-center flex-col gap-5">
+                            <span className='text-lg'>Back End Stack</span>
+                            <div className="flex max-sm:justify-center max-sm:gap5 flex-wrap  gap-8">
+                                <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
+                                    <div className="absolute w-full h-full blur-lg bg-gradient-to-t from-green-500 via-yellow-500 to-red-500"></div>
+                                    <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
+                                        <span className="text-lg">Node JS</span>
+                                        <img src={NodeJS} alt="React JS" />
+                                    </div>
+                                </div>
+                                <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
+                                    <div className="absolute w-full h-full blur-lg bg-gradient-to-t from-green-500 via-yellow-500 to-red-500"></div>
+                                    <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
+                                        <span className="text-lg">Express JS</span>
+                                        <img src={ExpressJS} alt="React JS" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex items-center flex-col gap-5">
+                            <span className='text-lg'>Database</span>
+                            <div className="flex  max-sm:justify-center max-sm:gap5 flex-wrap  gap-8">
+                                <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
+                                    <div className="absolute w-full h-full blur-lg bg-gradient-to-t from-green-500 via-yellow-500 to-red-500"></div>
+                                    <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
+                                        <span className="text-lg">MySQL</span>
+                                        <img src={MySQL} alt="React JS" />
+                                    </div>
+                                </div>
+                                <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
+                                    <div className="absolute w-full h-full blur-lg bg-gradient-to-t from-green-500 via-yellow-500 to-red-500"></div>
+                                    <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
+                                        <span className="text-lg">SQL</span>
+                                        <img src={SQL} alt="React JS" />
+                                    </div>
+                                </div>
+                                <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
+                                    <div className="absolute w-full h-full blur-lg bg-gradient-to-t from-green-500 via-yellow-500 to-red-500"></div>
+                                    <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
+                                        <span className="text-lg">Firebase Firestore</span>
+                                        <img src={FirebaseFirestore} alt="React JS" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex items-center flex-col gap-5">
+                            <span className='text-lg'>Version Control</span>
+                            <div className="flex  max-sm:justify-center max-sm:gap5 flex-wrap  gap-8">
+                                <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
+                                    <div className="absolute w-full h-full blur-lg bg-gradient-to-t from-green-500 via-yellow-500 to-red-500"></div>
+                                    <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
+                                        <span className="text-lg">Git</span>
+                                        <img src={Git} alt="React JS" />
+                                    </div>
+                                </div>
+                                <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
+                                    <div className="absolute w-full h-full blur-lg bg-gradient-to-t from-green-500 via-yellow-500 to-red-500"></div>
+                                    <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
+                                        <span className="text-lg">GitHub</span>
+                                        <img src={GitHub} alt="React JS" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <div className="">
+                            
                             <div className='flex flex-col w-full gap-5 order-1'>
                                 <div className="flex flex-col gap-2">
                                     <div className="flex justify-between px-5">
@@ -125,8 +254,8 @@ function Skills() {
                                         <ProgressBar completed={ isJava ? 95 : 0} bgColor="#67e8f9" height="25px" baseBgColor="#d8d8d1" labelColor="#000" animateOnRender maxCompleted={100} customLabel="95" />
                                     </VisibilitySensor>
                                 </div>
-                            </div>
-                        </div>
+                            </div> 
+                       </div> */}
                     </div>
                     <div className="flex flex-col gap-7">
                         <div className="text-center">
