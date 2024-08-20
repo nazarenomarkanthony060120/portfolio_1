@@ -7,6 +7,7 @@ import { motion } from 'framer-motion'
 import ReactJS from '../images/ReactJS.png'
 import HTML from '../images/HTML.png'
 import JS from '../images/JS.png'
+import NextJS from '../images/NextJS.png'
 import CSS from '../images/CSS.png'
 import BOOTSTRAP5 from '../images/BOOTSTRAP_5.png'
 import TAILWINDCSS from '../images/Tailwind_CSS.png'
@@ -53,6 +54,13 @@ function Skills() {
                                     <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
                                         <span className="text-lg">React JS</span>
                                         <img src={ReactJS} alt="React JS" />
+                                    </div>
+                                </div>
+                                <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
+                                    <div className="absolute w-full h-full blur-lg bg-gradient-to-t from-green-500 via-yellow-500 to-red-500"></div>
+                                    <div className="relative flex flex-col gap-2 p-3 w-full h-full items-center bg-black rounded-lg ">
+                                        <span className="text-lg">Next JS</span>
+                                        <img src={NextJS} alt="Next JS" />
                                     </div>
                                 </div>
                                 <div className="relative rounded-lg border-2 border-cyan-300 w-44 h-fit">
