@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_1/static/css/main.d4f3dd3f.css",
-    "main.js": "/portfolio_1/static/js/main.f50600d4.js",
+    "main.css": "/portfolio_1/static/css/main.1fcd3b61.css",
+    "main.js": "/portfolio_1/static/js/main.93655613.js",
     "static/media/Attendance_App_4.jpg": "/portfolio_1/static/media/Attendance_App_4.f485000a186bf567bdde.jpg",
     "static/media/Attendance_App_3.jpg": "/portfolio_1/static/media/Attendance_App_3.e8f386499ee7148ab013.jpg",
     "static/media/Attendance_App_2.jpg": "/portfolio_1/static/media/Attendance_App_2.dec7749052f95616c58f.jpg",
@@ -73,16 +73,17 @@
     "static/media/Minimart_Inventory_System_7.png": "/portfolio_1/static/media/Minimart_Inventory_System_7.5f9b4e43a34957de3d59.png",
     "static/media/Minimart_Inventory_System_3.png": "/portfolio_1/static/media/Minimart_Inventory_System_3.8c40772a443821114cab.png",
     "static/media/Minimart_Inventory_System_5.png": "/portfolio_1/static/media/Minimart_Inventory_System_5.a4ee94a8d268006dca47.png",
+    "static/media/NextJS.png": "/portfolio_1/static/media/NextJS.2e57b1d8bfc071d99904.png",
     "static/media/github.svg": "/portfolio_1/static/media/github.7567eb486ad4a805e2faaaff006e7e2c.svg",
-    "static/media/gmail.svg": "/portfolio_1/static/media/gmail.394c58f15b79bbe60f79b83b49288146.svg",
+    "static/media/gmail.svg": "/portfolio_1/static/media/gmail.827cd28b54733260a87ca86a25869fec.svg",
     "static/media/linkedin.svg": "/portfolio_1/static/media/linkedin.b1bd91ee966847e46cd0be70489e15b6.svg",
     "static/media/facebook.svg": "/portfolio_1/static/media/facebook.16571319cabb67df00d46ec27114770b.svg",
     "index.html": "/portfolio_1/index.html",
-    "main.d4f3dd3f.css.map": "/portfolio_1/static/css/main.d4f3dd3f.css.map",
-    "main.f50600d4.js.map": "/portfolio_1/static/js/main.f50600d4.js.map"
+    "main.1fcd3b61.css.map": "/portfolio_1/static/css/main.1fcd3b61.css.map",
+    "main.93655613.js.map": "/portfolio_1/static/js/main.93655613.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4f3dd3f.css",
-    "static/js/main.f50600d4.js"
+    "static/css/main.1fcd3b61.css",
+    "static/js/main.93655613.js"
   ]
 }
