@@ -6,7 +6,7 @@ import Facebook from '../images/facebook.svg'
 import LinkedIn from '../images/linkedin.svg'
 import Github from '../images/github.svg'
 // import Upwork from '../images/upwork.svg'
-import DownloadCV from '../assets/Mark_Anthony_Nazareno_Resume2024.docx'
+import DownloadCV from '../assets/Resume_Mark_Anthony_Nazareno.docx'
 import { Animate } from 'react-simple-animate'
 
 export default function Home() {
