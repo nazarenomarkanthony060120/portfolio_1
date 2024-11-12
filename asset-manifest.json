@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_1/static/css/main.1fcd3b61.css",
-    "main.js": "/portfolio_1/static/js/main.49ef02c7.js",
+    "main.js": "/portfolio_1/static/js/main.5459c1d1.js",
     "static/media/Attendance_App_4.jpg": "/portfolio_1/static/media/Attendance_App_4.f485000a186bf567bdde.jpg",
     "static/media/Attendance_App_3.jpg": "/portfolio_1/static/media/Attendance_App_3.e8f386499ee7148ab013.jpg",
     "static/media/Attendance_App_2.jpg": "/portfolio_1/static/media/Attendance_App_2.dec7749052f95616c58f.jpg",
@@ -10,6 +10,7 @@
     "static/media/Attendance_App.jpg": "/portfolio_1/static/media/Attendance_App.0b7d51eb535738c467d5.jpg",
     "static/media/Attendance_App_1.jpg": "/portfolio_1/static/media/Attendance_App_1.37d8108c3050dfbf9027.jpg",
     "static/media/Firestore.png": "/portfolio_1/static/media/Firestore.f2eeb4fe682c183f16f7.png",
+    "static/media/Mark_Anthony_Nazareno_Resume2024.docx": "/portfolio_1/static/media/Mark_Anthony_Nazareno_Resume2024.ead034bdab52c68cea18.docx",
     "static/media/Teacher_Website_1.png": "/portfolio_1/static/media/Teacher_Website_1.2c0c786887baec75916e.png",
     "static/media/Parent_Website_1.png": "/portfolio_1/static/media/Parent_Website_1.f9f324866523cf93e643.png",
     "static/media/Admin_Website_1.png": "/portfolio_1/static/media/Admin_Website_1.b17ea0b28c3e932b1381.png",
@@ -24,7 +25,6 @@
     "static/media/ExpressJS.png": "/portfolio_1/static/media/ExpressJS.e770c16ae1e75382596d.png",
     "static/media/Minimart_Inventory_System.png": "/portfolio_1/static/media/Minimart_Inventory_System.2f7a28d9310c4db46443.png",
     "static/media/Minimart_Inventory_System_8.png": "/portfolio_1/static/media/Minimart_Inventory_System_8.7b57e4e79dcfe78b4fa4.png",
-    "static/media/Mark_Anthony_Nazareno_Resume.docx": "/portfolio_1/static/media/Mark_Anthony_Nazareno_Resume.00a99580215e8f5ffbb5.docx",
     "static/media/Admin_Website_4.png": "/portfolio_1/static/media/Admin_Website_4.fd524848e039e056d5b0.png",
     "static/media/GITHUB.png": "/portfolio_1/static/media/GITHUB.8321f6b695242aad37a7.png",
     "static/media/Admin_Website.png": "/portfolio_1/static/media/Admin_Website.d829af3d3fbc373638f7.png",
@@ -80,10 +80,10 @@
     "static/media/facebook.svg": "/portfolio_1/static/media/facebook.16571319cabb67df00d46ec27114770b.svg",
     "index.html": "/portfolio_1/index.html",
     "main.1fcd3b61.css.map": "/portfolio_1/static/css/main.1fcd3b61.css.map",
-    "main.49ef02c7.js.map": "/portfolio_1/static/js/main.49ef02c7.js.map"
+    "main.5459c1d1.js.map": "/portfolio_1/static/js/main.5459c1d1.js.map"
   },
   "entrypoints": [
     "static/css/main.1fcd3b61.css",
-    "static/js/main.49ef02c7.js"
+    "static/js/main.5459c1d1.js"
   ]
 }
