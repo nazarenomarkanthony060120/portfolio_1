@@ -20,7 +20,7 @@ export default function Home() {
                         <div className="flex justify-center text-start flex-col max-md:h-fit gap-6 max-sm:px-7 max-md:order-2">
                             <Animate play duration={1} delay={0} start={{ transform: 'translateX(-600px)'}}>
                                 <div className="flex flex-col max-md:text-center">
-                                    <span className='text-[40px] max-lg:text-3xl] max-md:text-2xl max-sm:text-xl font-extrabold font-sans'>MARK ANTHONY NAZARENO</span>
+                                    <span className='text-[40px] max-lg:text-3xl] max-md:text-2xl max-sm:text-xl font-extrabold font-sans'>MARK ANTHONY NAZARENO Test</span>
                                     <div className="max-md:text-center">
                                         <span className='text-[35px] max-lg:text-2xl max-md:text-xl max-sm:text-lg font-bold text-start'>And I'm a <span className='text-cyan-300'>{ text }</span></span>
                                     </div>
