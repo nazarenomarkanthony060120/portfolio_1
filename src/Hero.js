@@ -28,3 +28,28 @@ function Hero() {
 }
 
 export default Hero
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Steps for deployment
+ * 1. npm install --save gh-pages
+ * 2. git add .
+ * 3. git commit -m "Initial commit"
+ * 4. git push
+ * 5. npm run build
+ * 2. npm run deploy
+ */
