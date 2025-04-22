@@ -49,7 +49,7 @@ function Parent() {
                 <span className="text-lg tracking-widest">Database:</span>
                 <div className="flex gap-3">
                   <span className="text-lg tracking-widest">
-                    Firebase Firestore{" "}
+                    Firebase Firestore
                   </span>
                 </div>
               </div>
